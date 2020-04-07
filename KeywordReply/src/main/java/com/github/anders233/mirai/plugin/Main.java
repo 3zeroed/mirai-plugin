@@ -62,7 +62,7 @@ class Main extends PluginBase {
                             return true;
                         }
                         String word_type = list.get(1);
-                        if (!word_type.startsWith("e") || !word_type.startsWith("v")) {
+                        if (!(word_type.startsWith("e") || word_type.startsWith("v"))) {
                             sender.sendMessageBlocking("未知的关键字类型\n" +
                                     "<type> -> 关键词类型有:\n" +
                                     "精准词: exact, 判断成员消息为关键字就回复\n" +
