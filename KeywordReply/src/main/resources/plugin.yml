@@ -1,0 +1,6 @@
+name: "KeywordReply"
+author: "Anders"
+version: "0.1.0"
+main: "com.github.anders233.mirai.plugin.Main"
+info: "检查关键词并回复的插件"
+depends: []
