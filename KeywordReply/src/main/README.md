@@ -1,4 +1,4 @@
-#KeywordReply
+# KeywordReply
 检查关键词并回复的插件
 
 插件指令帮助:
